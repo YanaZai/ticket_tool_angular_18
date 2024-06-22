@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ticket_tool_angular_18:build:production"
+              "buildTarget": "ticket_tool_angular_18:build:production"
             },
             "development": {
-              "browserTarget": "ticket_tool_angular_18:build:development"
+              "buildTarget": "ticket_tool_angular_18:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ticket_tool_angular_18:build"
+            "buildTarget": "ticket_tool_angular_18:build"
           }
         },
         "test": {
